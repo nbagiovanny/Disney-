@@ -1,21 +1,38 @@
 :root{
---cor-principal:#000000;
---cor-secundaria:#ffffff;
---botao-principal:#167bf7;
---cor-de-fundo:#000000;
-}
-
-
-*{
-margin: 0;
-padding: 0;
-}
-
-.principal{
-    background-image: url("img/disneybanner.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.container{
-    height: 100vh;
-}
+    --cor-principal:#000000;
+    --cor-secundaria:#ffffff;
+    --botao-principal:#167bf7;
+    --cor-de-fundo:#000000;
+    }
+    
+    *{
+    margin: 0;
+    padding: 0;
+    }
+    body{
+    color: var(--cor-principal);
+    font-weight: 400;
+    font-size: 16px;
+    
+    }
+    
+    .principal{
+        background-image: url("img/disneybanner.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .container{
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    
+    .container--botao{
+    background-color: var(--botao-principal);
+    color: var(--cor-principal);
+    padding: 1em;
+    border-radius: 30px;
+    text-decoration: none;
+    display: block;
+    
+    }
