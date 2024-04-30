@@ -36,5 +36,14 @@
     border-radius: 30px;
     text-decoration: none;
     display: block;
+    }
+
+    .botao--secundaria{
+background-color: transparent;
+border: 2px solid var(--cor-principal);
+    }
+
+    .container--caixa{
+margin: 0 6em;
 
     }
