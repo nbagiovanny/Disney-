@@ -20,6 +20,8 @@
         background-image: url("img/disneybanner.png");
         background-size: contain;
         background-repeat: no-repeat;
+        text-align: center;
+        align-items: center;
     }
     .container{
         height: 100vh;
@@ -34,5 +36,5 @@
     border-radius: 30px;
     text-decoration: none;
     display: block;
-    
+
     }
