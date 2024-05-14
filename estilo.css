@@ -1,8 +1,8 @@
 :root{
-    --cor-principal:#000000;
-    --cor-secundaria:#ffffff;
+    --cor-principal:#ffffff;
+    --cor-secundaria:#000000;
     --botao-principal:#167bf7;
-    --cor-de-fundo:#000000;
+    --cor-de-fundo:#ffffff;
     }
     
     *{
@@ -10,6 +10,7 @@
     padding: 0;
     }
     body{
+        
     color: var(--cor-principal);
     font-weight: 400;
     font-size: 16px;
@@ -49,3 +50,4 @@ border: 2px solid var(--cor-principal);
 margin: 0 6em;
 
     }
+    
